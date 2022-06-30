@@ -36,27 +36,10 @@ export class MainPageComponent{
 
   nuevo:Personaje = {
 
-    nombre:'',
-    poder : 0
+    nombre:'prueba1',
+    poder : 11111
 
   }
-
-  agregar( ){
-        // event:any
-    // event.preventDefault();
-    if(this.nuevo.nombre.trim().length === 0){//.trim() elimina espacios en blanco
-      return;
-    }
-
-    this.personajes.push(this.nuevo);
-    this.nuevo = {
-
-      nombre:'',
-      poder : 0
-    }
-    console.log(this.nuevo);
-  }
-
 
   
 
