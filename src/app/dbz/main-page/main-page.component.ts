@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { Personaje } from '../interfaces/dbz.interface';
 
 
 //creando interfaz:
 
-interface Personaje {
+// interface Personaje {
 
-  nombre :string,
-  poder  :number
+//   nombre :string,
+//   poder  :number
 
-}
+// }
 
 
 
