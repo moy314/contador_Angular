@@ -10,6 +10,9 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { PersonajesComponent } from './personajes/personajes.component';
 import { AgregarComponent } from './agregar/agregar.component';
 
+//....servicios
+import { DbzService } from './services/dbz.service';
+
 
 
 
@@ -26,6 +29,9 @@ import { AgregarComponent } from './agregar/agregar.component';
   imports: [
     CommonModule,
     FormsModule
+  ],
+  providers:[
+    DbzService
   ]
 })
 export class DbzModule { }
