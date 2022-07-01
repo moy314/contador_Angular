@@ -36,11 +36,15 @@ export class MainPageComponent{
 
   nuevo:Personaje = {
 
-    nombre:'prueba1',
-    poder : 11111
+    nombre:'maestro roshi',
+    poder : 9000
 
   }
 
+  agregarNuevoPersonaje(argumento :Personaje ){
+
+    this.personajes.push(argumento)
+  }
   
 
 }
